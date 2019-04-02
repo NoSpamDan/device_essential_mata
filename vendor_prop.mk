@@ -2,6 +2,14 @@
 # vendor props for mata
 #
 
+# DEBUG
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb
+
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \

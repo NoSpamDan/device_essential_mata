@@ -156,6 +156,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=mata ehci-hcd.park=3 schedstats=dis
 BOARD_KERNEL_CMDLINE += service_locator.enable=1 loop.max_part=7
 BOARD_KERNEL_CMDLINE += swiotlb=2048 androidboot.configfs=true
 BOARD_KERNEL_CMDLINE += androidboot.usbcontroller=a800000.dwc3 cma=32M@0-0xffffffff
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x02000000
